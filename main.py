@@ -24,22 +24,3 @@ next_appearance = years_to_pass + year
 print(f"Next appearance: {next_appearance}")
 
 
-
-
-
-
-# now let's check the selection
-total_charge = 0
-if selection == 1:
-	total_charge = total_calc(months_rented,60, 45, 450)
-elif selection == 2:
-	total_charge = total_calc(months_rented, 45, 30, 280)
-elif selection == 3:
-	total_charge = total_calc(months_rented, 55, 38, 350)
-elif selection == 4:
-	total_charge = total_calc(months_rented, 28, 25, 200)
-else:
-	total_charge = total_calc(months_rented, 35, 20, 220)
-
-print(f"\nAmount due ($): {total_charge}")
-
